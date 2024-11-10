@@ -8,11 +8,3 @@ node_modules/
 .github/
 cloudinary_python.txt
 kaggle.json
-inputs/herry-leaves/test/healthy/*
-inputs/cherry-leaves/test/powdery_mildew/*
-inputs/cherry-leaves/train/healthy/*
-inputs/cherry-leaves/train/powdery_mildew/*
-README.md
-.gitpod.dockerfile
-.gitpod.yml
-app_pages/__pycache__/*

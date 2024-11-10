@@ -1,8 +1,5 @@
 inputs/
-outputs/
-*.png
-*.jpg
-*.jpeg
+
 *.csv
 *.pkl
 __pycache__/
