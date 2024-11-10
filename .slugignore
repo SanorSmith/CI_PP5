@@ -1,6 +1,6 @@
-inputs/
-
-*.csv
-*.pkl
+inputs/herry-leaves/test/healthy/*
+inputs/cherry-leaves/test/powdery_mildew/*
+inputs/cherry-leaves/train/healthy/*
+inputs/cherry-leaves/train/powdery_mildew/*
 __pycache__/
 *.ipynb
