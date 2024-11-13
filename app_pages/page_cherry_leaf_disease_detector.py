@@ -42,7 +42,8 @@ def page_cherry_leaf_disease_detector_body():
             pred_proba, pred_class = load_model_and_predict(resized_img, version=version)
             plot_predictions_probabilities(pred_proba, pred_class)
 
-            df_report = df_report.append({"Image Name": image.name, "Diagnosis": pred_class}, ignore_index=True)
+            new_row = pd.DataFrame([{"Image Name": image.name, "Diagnosis": pred_class}])
+            df_report = pd.concat([df_report, new_row], ignore_index=True)
         
         if not df_report.empty:
             st.success("Analysis Summary Report")
