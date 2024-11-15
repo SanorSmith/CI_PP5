@@ -9,3 +9,4 @@ Pillow
 protobuf
 plotly
 keras
+h5py
