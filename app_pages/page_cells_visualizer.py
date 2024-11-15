@@ -36,16 +36,28 @@ def page_cells_visualizer_body():
             "* This comparison may not intuitively reveal clear differences between the two types of cells.")
         st.image(diff_between_avgs, caption='Difference Between Average Images - Parasitized vs Uninfected')
 
-    if st.checkbox("Image Montage"): 
+    # Define label mappings
+    label_mapping = {
+        'powdery_mildew': 'Mildew leaves',
+        'healthy': 'Healthy leaves'
+    }
+
+    if st.checkbox("Image Montage"):
         st.write("* Click 'Create Montage' to refresh the displayed montage.")
         my_data_dir = 'inputs/cherry-leaves'
         labels = os.listdir(my_data_dir + '/validation')
-        label_to_display = st.selectbox(label="Select Cell Type", options=labels, index=0)
         
-        if st.button("Create Montage"):      
+        # Apply label mapping
+        display_labels = [label_mapping.get(label, label) for label in labels]
+        selected_label_display = st.selectbox("Select Cell Type", options=display_labels, index=0)
+        
+        # Map back the display label to actual directory name
+        selected_label = [key for key, value in label_mapping.items() if value == selected_label_display][0]
+
+        if st.button("Create Montage"):
             image_montage(
                 dir_path=my_data_dir + '/validation',
-                label_to_display=label_to_display,
+                label_to_display=selected_label,
                 nrows=8, ncols=3, figsize=(10, 25)
             )
         st.write("---")
