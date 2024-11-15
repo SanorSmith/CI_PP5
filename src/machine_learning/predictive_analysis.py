@@ -5,7 +5,8 @@ import plotly.express as px
 from plotly import graph_objects
 import plotly.graph_objects as go
 
-from tensorflow.keras.models import load_model
+from tensorflow import keras
+load_model = keras.models.load_model
 from PIL import Image
 from src.data_management import load_pkl_file
 
