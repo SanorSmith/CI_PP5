@@ -157,4 +157,26 @@ The business benefits of this solution are significant. It streamlines the inspe
 
 [Back to top ⇧](#table-of-contents)
 
+## Project Overview
+
+The **Cherry Leaf Disease Detector Dashboard** is a powerful tool designed to streamline the process of detecting powdery mildew infections on cherry leaves. This dashboard leverages machine learning to provide actionable insights, enabling early intervention and minimizing crop yield losses. With an emphasis on usability, the system integrates features to ensure accurate predictions, robust model performance, and a user-friendly interface for diverse audiences.
+
+## Visual Insights into Disease Symptoms
+
+A key feature of the dashboard is its ability to visualize the differences between healthy and infected leaves. Using tools such as average and variability images, as well as montages, the system highlights distinguishing patterns like white fungal growth and discoloration. These visualizations not only enhance understanding but also validate the model's training process by showcasing the critical features used for classification.
+
+## Model Performance Analysis
+
+The dashboard includes a section dedicated to evaluating the machine learning model's performance. Metrics such as accuracy and loss over training epochs are presented, offering transparency and assurance of the model’s reliability. This analysis ensures the system meets the high-performance standards necessary for practical deployment, targeting an accuracy rate of 97% to minimize errors in prediction.
+
+## Real-Time Disease Detection
+
+The core functionality of the dashboard allows users to upload images of cherry leaves and receive instant predictions about their health. This feature supports batch uploads and generates downloadable reports, making it easier for users to monitor large-scale operations efficiently. The intuitive design ensures accessibility for users with varying levels of technical expertise, promoting widespread adoption.
+
+## Validating Hypotheses for Model Development
+
+The project incorporates several hypotheses to refine the model’s robustness and accuracy. By analyzing visual symptoms, utilizing image normalization, and training with augmented data, the system ensures reliable generalization to unseen scenarios. Each hypothesis is supported by data and visual outputs, reinforcing the system’s ability to accurately identify powdery mildew in cherry leaves and address real-world agricultural challenges.
+
+[Back to top ⇧](#table-of-contents)
+
 
