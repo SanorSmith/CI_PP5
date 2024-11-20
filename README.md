@@ -7,6 +7,9 @@ The **Cherry Leaf Disease Detector** is a machine learning solution developed to
 
 The application is integrated into an intuitive Streamlit dashboard where users can upload images of cherry leaves to receive real-time predictions. The solution is scalable, making it adaptable for detecting other plant diseases in the future.
 
+![Cherry Leaf Powdery Mildew Detector – Responsive Design Preview](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection/blob/main/assets/amiresponsive.jpg)  
+*Illustration: The Cherry Leaf Powdery Mildew Detector app showcasing its responsive design across different devices.*
+
 ### Deployed Version
 [Cherry Leaf Disease Detector](https://cherry-leaf-disease-detection-63b42bf0104d.herokuapp.com/)
 
