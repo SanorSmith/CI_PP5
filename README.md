@@ -134,3 +134,14 @@ The model addresses a critical challenge in agriculture: detecting powdery milde
 
 
 [Back to top ⇧](#table-of-contents)
+
+## The Rationale to Map the Business Requirements to Data Visualizations and ML Tasks
+
+The project aligns its business requirements with tailored data visualizations and machine learning (ML) tasks to deliver an intuitive and effective solution. A key focus is on creating an interactive dashboard that allows clients to easily navigate and explore various insights. The dashboard includes side-by-side visual graphs showcasing average images, differences, and variabilities between healthy and infected leaves. These visualizations enable clients to identify distinguishing features effortlessly. Additionally, the dashboard provides an image montage for a direct comparison of healthy and infected leaves, alongside a confusion matrix to assess the model's performance in classification tasks.
+
+For classification, the project emphasizes dynamic plots to track the model's accuracy and loss over epochs, ensuring progress towards achieving the target accuracy of 97% or higher. The impact of preprocessing techniques like image normalization and data augmentation is also visualized, helping clients understand how these methods improve the model's reliability. Furthermore, performance metrics on a validation dataset confirm the model's ability to generalize effectively to unseen data.
+
+The system also prioritizes generating actionable insights through user-friendly reporting. Clients can upload cherry leaf images to receive immediate health status feedback, aiding quick decision-making. Dataset distribution visualizations, including proportions of healthy versus infected leaves, provide deeper insights into the data used for training. Clear instructions and contextual explanations alongside these visualizations ensure the dashboard remains accessible and interpretable, even for users without technical expertise.
+
+[Back to top ⇧](#table-of-contents)
+
