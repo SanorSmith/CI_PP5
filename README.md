@@ -145,3 +145,16 @@ The system also prioritizes generating actionable insights through user-friendly
 
 [Back to top ⇧](#table-of-contents)
 
+## Strategic Vision for Machine Learning Integration
+
+The primary objective of this project is to develop a machine learning model capable of predicting whether a cherry leaf is infected with powdery mildew, using a dataset of labeled leaf images. This supervised learning task focuses on binary classification, where the model determines if a leaf is "healthy" or "infected." The desired outcome is to provide a faster, more reliable method for early detection of powdery mildew, enabling timely intervention and minimizing crop damage.
+
+The success of the project will be measured by achieving a minimum accuracy of 97% on the test set. Additionally, the solution is designed to deliver real-time results, ensuring users receive diagnostic outcomes immediately after uploading images, eliminating the need for batch processing. The model’s output will include a binary flag indicating whether a leaf is healthy or infected, accompanied by probability scores for each prediction. This output will be accessible through a user-friendly dashboard, allowing seamless interaction for users with minimal technical expertise.
+
+Traditionally, detecting powdery mildew involved manual inspection by employees, which could take up to 30 minutes per tree and was prone to human error. The proposed image-based detection system enhances speed, accuracy, and consistency, addressing these inefficiencies. The training data for the model comprises a labeled dataset of 4,208 images, sourced from Kaggle, containing both healthy and infected cherry leaves. This dataset plays a pivotal role in training and validating the model.
+
+The business benefits of this solution are significant. It streamlines the inspection process, saving Farmy & Foods considerable time compared to manual methods. Furthermore, the model reduces human error, ensuring more consistent and reliable diagnoses. The solution is scalable, allowing for application to larger datasets or adaptation to detect diseases in other crops, broadening its impact within the agricultural sector.
+
+[Back to top ⇧](#table-of-contents)
+
+
