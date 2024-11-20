@@ -103,7 +103,7 @@ Normalization scales pixel values within a consistent range, reducing noise and 
 
 **Model Performance**:
 - Training and validation accuracies stabilize quickly, indicating effective generalization:
-  ![normalization_image](./assets/output/v1/model_history.png)
+  ![normalization_image](./outputs/v1/model_history.png)
 
 - Consistently low validation loss reflects the model's ability to avoid overfitting, further validating the effectiveness of normalization techniques.
 
