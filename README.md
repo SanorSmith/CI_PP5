@@ -300,3 +300,34 @@ Follow these steps to fork the repository and create your own copy:
    - Clone the forked repository to your local machine, make changes, and push them to your forked repository.
 
 ---
+
+### Making a Local Clone
+
+Follow these steps to clone the repository to your local machine:
+
+1. **Access the Repository**  
+   - Navigate to the [GitHub Repository](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection) for this project.
+
+2. **Copy the Clone URL**  
+   - Click on the green "Code" button located near the top-right corner of the repository page.
+   - Select the HTTPS option and copy the URL provided.
+
+3. **Open Your Command Line Interface (CLI)**  
+   - Launch your preferred CLI application (e.g., Terminal, Command Prompt, or Git Bash).
+   - Navigate to the directory where you want to clone the repository by using the `cd` command.
+
+4. **Clone the Repository**  
+   - Type the following command and paste the copied URL after `git clone`:
+     ```bash
+     git clone <copied-URL>
+     ```
+   - Press Enter to create a local copy of the repository.
+
+5. **Verify the Clone**  
+   - Once the process is complete, navigate into the cloned repository using:
+     ```bash
+     cd <repository-name>
+     ```
+   - You now have the project files on your local machine and can start making changes.
+
+---
