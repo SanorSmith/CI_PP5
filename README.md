@@ -21,9 +21,9 @@ The application is integrated into an intuitive Streamlit dashboard where users 
 2. [Business Requirements](#business-requirements)
 3. [Hypothesis and Validation](#hypothesis-and-validation)
 4. [Rationale for the Model](#rationale-for-the-model)
-5. [Implementation of the Business Requirements](#implementation-of-the-business-requirements)
-6. [Machine Learning Business Case](#machine-learning-business-case)
-7. [Dashboard Design (Streamlit UI)](#dashboard-design-streamlit-ui)
+5. [The Rationale to Map the Business Requirements to Data Visualizations and ML Tasks](#the-rationale-to-map-the-business-requirements-to-data-visualizations-and-ml-tasks)
+6. [Strategic Vision for Machine Learning Integration](#strategic-vision-for-machine-learning-integration)
+7. [Project Dashboard](#project-dashboard)
 8. [CRISP-DM Process](#crisp-dm-process)
 9. [Bugs](#bugs)
 10. [Deployment](#deployment)
@@ -157,7 +157,7 @@ The business benefits of this solution are significant. It streamlines the inspe
 
 [Back to top ⇧](#table-of-contents)
 
-## Project Overview
+## Project Dashboard
 
 The **Cherry Leaf Disease Detector Dashboard** is a powerful tool designed to streamline the process of detecting powdery mildew infections on cherry leaves. This dashboard leverages machine learning to provide actionable insights, enabling early intervention and minimizing crop yield losses. With an emphasis on usability, the system integrates features to ensure accurate predictions, robust model performance, and a user-friendly interface for diverse audiences.
 
