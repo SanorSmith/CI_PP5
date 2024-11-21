@@ -278,3 +278,25 @@ The project is coded and hosted on GitHub and deployed with [Heroku](https://htt
     - Verify all features of the app, including predictions, visualizations, and file uploads, work as intended.
 
 ---
+
+### Forking the Repository
+
+Follow these steps to fork the repository and create your own copy:
+
+1. **Access the Repository**  
+   - Go to the [GitHub Repository](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection) for this project.
+   - Make sure you are logged into your GitHub account.
+
+2. **Initiate the Fork**  
+   - Click the "Fork" button located at the top-right corner of the repository page, just above the "Settings" tab.
+
+3. **Create the Fork**  
+   - On the next page, click the "Create Fork" button. You can optionally set a name or description for your fork if needed.
+
+4. **Confirm Fork Creation**  
+   - Once the fork is created, you will be redirected to the repository under your own GitHub account. This will be your personal copy of the project.
+
+5. **Start Customizing**  
+   - Clone the forked repository to your local machine, make changes, and push them to your forked repository.
+
+---
