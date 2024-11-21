@@ -233,3 +233,7 @@ The project incorporates several hypotheses to refine the model’s robustness a
 | Outdated Libraries in Requirements      | Some libraries in `requirements.txt` are outdated.                                                           | Regularly update dependencies to the latest stable versions.                                                |
 | Lack of Integration with Cloud Storage  | Models and datasets are stored locally, limiting scalability.                                                | Integrate with cloud storage services like AWS S3 or Google Cloud.                                          |
 | Ambiguous Image Upload Instructions     | Users are unsure about the required image format or resolution.                                              | Add clear guidelines for image uploads on the dashboard.                                                    |
+
+## Deployment
+
+The project is coded and hosted on GitHub and deployed with [Heroku](https://https://cherry-leaf-disease-detection-63b42bf0104d.herokuapp.com/), [GITHUB](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection) .
