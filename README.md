@@ -498,3 +498,7 @@ The following resources played a crucial role in guiding the development of this
 12. **CI's Malaria Detection Walkthrough**  
    - Used as a foundational guideline for structuring and implementing the Cherry Leaf Powdery Mildew Detection project.
 
+### Media
+   -![Banner](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection/blob/main/assets/banner.jpg)  
+
+   **Source**: Banner image created using [Canva](https://www.canva.com/), incorporating royalty-free images from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
