@@ -331,3 +331,44 @@ Follow these steps to clone the repository to your local machine:
    - You now have the project files on your local machine and can start making changes.
 
 ---
+
+## Technologies Used
+
+### Core Libraries for Data Analysis and Machine Learning
+- [NumPy](https://numpy.org/): A foundational library for numerical computations and efficient manipulation of multi-dimensional arrays, enabling seamless image preprocessing for machine learning tasks.
+
+- [Pandas](https://pandas.pydata.org/): Provides powerful tools for data manipulation and analysis using DataFrames, facilitating structured data handling and insights extraction.
+
+- [TensorFlow](https://www.tensorflow.org/): A leading open-source machine learning library used to build and train the convolutional neural network (CNN) for image classification.
+
+- [Keras](https://keras.io/): A high-level API integrated with TensorFlow for building and fine-tuning deep learning models with simplicity and flexibility.
+
+- [Scikit-learn](https://scikit-learn.org/): Offers tools for model evaluation, including precision, recall, F1-score calculations, and confusion matrix generation to assess classification performance.
+
+### Visualization and Dashboard Tools
+- [Matplotlib](https://matplotlib.org/): A versatile plotting library used to generate visualizations such as loss and accuracy plots over training epochs.
+
+- [Seaborn](https://seaborn.pydata.org/): Simplifies the creation of visually appealing statistical graphics, including heatmaps for confusion matrices.
+
+- [Plotly](https://plotly.com/python/): Enables interactive visualizations on the dashboard, such as bar plots for prediction probabilities and dynamic ROC curves.
+
+- [Streamlit](https://streamlit.io/): Provides an intuitive framework for building and deploying the user-friendly web-based dashboard for predictions and insights.
+
+### Image Processing Libraries
+- [Pillow (PIL)](https://pillow.readthedocs.io/en/stable/): Facilitates essential image manipulation tasks like resizing and formatting images to match model input requirements.
+
+### Deployment and Application Hosting
+- [Heroku](https://www.heroku.com/): A cloud platform used to deploy the web-based application, making it accessible across various devices and geographical locations.
+
+### Auxiliary Tools
+- [Joblib](https://joblib.readthedocs.io/): Handles the serialization and deserialization of machine learning models and other large data objects.
+
+- [Base64](https://docs.python.org/3/library/base64.html): Encodes and decodes binary data, such as preparing downloadable prediction reports in the dashboard.
+
+- [Git](https://git-scm.com/): Version control system used to track changes and collaborate effectively during project development.
+
+### Development Environment
+- [VS Code](https://code.visualstudio.com/): The primary IDE used for writing, debugging, and managing the project’s codebase.
+
+### Dataset Source
+- [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves): The dataset repository containing labeled images of healthy and infected cherry leaves, used for training and testing the model.
