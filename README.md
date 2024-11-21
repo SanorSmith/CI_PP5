@@ -372,3 +372,12 @@ Follow these steps to clone the repository to your local machine:
 
 ### Dataset Source
 - [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves): The dataset repository containing labeled images of healthy and infected cherry leaves, used for training and testing the model.
+
+### Platforms
+- [GitHub](https://github.com/): A powerful version control and code hosting platform that ensures collaborative development, tracks changes, and provides a centralized repository for the project’s source code.
+- [Gitpod](https://www.gitpod.io/): A browser-based integrated development environment (IDE) that provides pre-configured setups for coding. It streamlines the development workflow by eliminating the need for local configuration.
+- [Heroku](https://en.wikipedia.org/wiki/Heroku): A cloud-based platform that simplifies the deployment, scaling, and management of web applications. It is used to host the Cherry Leaf Disease Detector's Streamlit dashboard, making it accessible from anywhere.
+- [Jupyter Notebook](https://jupyter.org/): An interactive development environment ideal for prototyping machine learning models and conducting exploratory data analysis. It supports live code execution, visualizations, and narrative documentation.
+- [Kaggle](https://www.kaggle.com/): A renowned platform for accessing, sharing, and analyzing datasets. Kaggle also offers a collaborative environment for developing machine learning models, and the cherry leaf dataset used in this project was sourced from here.
+
+
