@@ -457,3 +457,44 @@ To ensure that the project maintains high standards of code quality and adheres 
 
 ### Key Takeaway:
 These refinements were introduced not only to comply with best practices but also to ensure the code remains easy to maintain, understand, and scale as the project evolves. The balance between adhering to strict formatting rules and preserving readability was thoughtfully maintained, setting a solid foundation for long-term project success.
+
+## Credits
+
+The following resources played a crucial role in guiding the development of this project:
+
+1. **Kaggle Datasets**  
+   - Cherry leaf dataset (healthy and infected) used for training the model was sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
+
+2. **TensorFlow Tutorials**  
+   - For building and training Convolutional Neural Networks: [TensorFlow Tutorials](https://www.tensorflow.org/tutorials).
+
+3. **Fast.ai Blog**  
+   - Insights into transfer learning and fine-tuning image classification models: [Transfer Learning Guide](https://www.fast.ai/).
+
+4. **Scikit-learn User Guide**  
+   - Used for preprocessing techniques and classification performance evaluation: [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html).
+
+5. **Pillow (PIL) Library**  
+   - For image processing, including resizing and augmentation: [Pillow Documentation](https://pillow.readthedocs.io/en/stable/).
+
+6. **Streamlit Community Forums**  
+   - Support and examples for creating dynamic dashboards: [Streamlit Community](https://discuss.streamlit.io/).
+
+7. **Towards Data Science Articles**  
+   - Guidance on evaluating model performance using confusion matrices and ROC curves: [Towards Data Science on Confusion Matrices](https://towardsdatascience.com/).
+
+8. **Google Developers Blog**  
+   - Information on optimizing TensorFlow models for deployment: [TensorFlow Model Optimization Guide](https://developers.googleblog.com/).
+
+9. **Pacific Northwest Pest Management Handbook**  
+   - Reference for understanding the symptoms and spread of powdery mildew in cherry trees: [Powdery Mildew Guide](https://pnwhandbooks.org/plantdisease).
+
+10. **Plotly Python Documentation**  
+    - For creating interactive and visually appealing graphs in the dashboard: [Plotly Python Docs](https://plotly.com/python/).
+
+11. **Code Institute (CI)**  
+   - The project template was provided by Code Institute - [GitHub](https://github.com/Code-Institute-Submissions).
+
+12. **CI's Malaria Detection Walkthrough**  
+   - Used as a foundational guideline for structuring and implementing the Cherry Leaf Powdery Mildew Detection project.
+
