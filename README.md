@@ -502,3 +502,13 @@ The following resources played a crucial role in guiding the development of this
    -![Banner](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection/blob/main/assets/banner.jpg)  
 
    **Source**: Banner image created using [Canva](https://www.canva.com/), incorporating royalty-free images from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+
+### Acknowledgements
+
+- Heartfelt gratitude to my mentor, Mo Shami, for his invaluable guidance and thoughtful suggestions. His expertise played a pivotal role in shaping the success of this project.
+
+- A big thank you to the members of the Community-Sweden group on Slack for their unwavering support, insightful advice, and encouragement. Your collaboration and motivation have been instrumental in driving this project forward.
+
+- Special appreciation to my wife, whose unwavering support, patience, and encouragement have been a source of strength throughout this journey.
+
+[Back to top ⇧](#table-of-contents)
