@@ -236,4 +236,45 @@ The project incorporates several hypotheses to refine the model’s robustness a
 
 ## Deployment
 
-The project is coded and hosted on GitHub and deployed with [Heroku](https://https://cherry-leaf-disease-detection-63b42bf0104d.herokuapp.com/), [GITHUB](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection) .
+The project is coded and hosted on GitHub and deployed with [Heroku](https://https://cherry-leaf-disease-detection-63b42bf0104d.herokuapp.com), [GITHUB](https://github.com/SanorSmith/CI_PP5_Cherry_Leaf_Disease_Detection) .
+
+# Deploying the Cherry Leaf Disease Detector on Heroku
+
+## Steps for Deployment
+
+1. **Prepare Dependencies**
+   - Create a `requirements.txt` file listing all Python dependencies required for the app to run.
+   - Include a `runtime.txt` file specifying the Python version, e.g., `python-3.10.13`, supported by the Heroku-22 stack.
+
+2. **Push to GitHub**
+   - Ensure all changes are committed and pushed to the repository on GitHub.
+
+3. **Set Up a Heroku App**
+   - Log in to your [Heroku account](https://id.heroku.com/login).
+   - Click "New" > "Create New App" on the Heroku dashboard.
+   - Enter a unique name for your app and select the appropriate region.
+
+4. **Configure Buildpacks**
+   - Navigate to the app’s **Settings** tab and add the `heroku/python` buildpack.
+
+5. **Link GitHub Repository**
+   - In the **Deploy** tab, choose "GitHub" as the deployment method.
+   - Connect to your GitHub account and select the repository containing the project.
+
+6. **Deploy the Branch**
+   - Choose the branch to deploy (e.g., `main`) and click "Deploy Branch."
+   - Optionally, enable "Automatic Deploys" to redeploy the app whenever changes are pushed to the branch.
+
+7. **Resolve Slug Size Issues (If Needed)**
+   - If the slug size exceeds 500MB, create a `.slugignore` file to exclude unnecessary files (e.g., datasets, notebooks, and cache files) from the deployment.
+
+8. **Monitor Build Logs**
+   - Watch the logs to ensure dependencies are installed and the app builds successfully.
+
+9. **Access the App**
+   - Once deployed, your app will be accessible via a URL similar to `https://your-app-name.herokuapp.com`.
+
+10. **Test the App**
+    - Verify all features of the app, including predictions, visualizations, and file uploads, work as intended.
+
+---
