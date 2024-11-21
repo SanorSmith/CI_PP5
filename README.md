@@ -380,4 +380,10 @@ Follow these steps to clone the repository to your local machine:
 - [Jupyter Notebook](https://jupyter.org/): An interactive development environment ideal for prototyping machine learning models and conducting exploratory data analysis. It supports live code execution, visualizations, and narrative documentation.
 - [Kaggle](https://www.kaggle.com/): A renowned platform for accessing, sharing, and analyzing datasets. Kaggle also offers a collaborative environment for developing machine learning models, and the cherry leaf dataset used in this project was sourced from here.
 
+### Languages
 
+- [Python](https://www.python.org/): The primary programming language used for data analysis, machine learning model development, and building the Streamlit dashboard. Its rich ecosystem of libraries and frameworks makes it ideal for this project.
+- [Markdown](https://en.wikipedia.org/wiki/Markdown): Used for creating structured and readable documentation, including the project’s README file, providing a clean and accessible format for presenting project details.
+- [HTML](https://en.wikipedia.org/wiki/HTML): Utilized indirectly through the Streamlit dashboard for rendering interactive elements and layouts, ensuring a user-friendly web interface.
+
+[Back to top ⇧](#table-of-contents)
