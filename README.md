@@ -387,3 +387,47 @@ Follow these steps to clone the repository to your local machine:
 - [HTML](https://en.wikipedia.org/wiki/HTML): Utilized indirectly through the Streamlit dashboard for rendering interactive elements and layouts, ensuring a user-friendly web interface.
 
 [Back to top ⇧](#table-of-contents)
+
+### User Story Testing
+
+#### Business Requirement 1: Data Visualization
+
+| **User Story**   | **Feature**                     | **Action**                                   | **Expected Result**                                     | **Actual Result**      |
+|-------------------|----------------------------------|---------------------------------------------|---------------------------------------------------------|------------------------|
+| User Story 1      | Navigation bar                  | Selecting buttons from the side menu        | Selected page displayed with correct information        | Functions as expected |
+| User Story 2      | Visual graphs of image data     | Viewing average images, differences, and variabilities between healthy and infected leaves | Graphs clearly show differences between healthy and infected leaves | Functions as expected |
+| User Story 3      | Image montage display           | Viewing image montage of healthy and infected leaves | Montage accurately displays both healthy and infected leaf images for visual differentiation | Functions as expected |
+| User Story 4      | Confusion matrix display        | Viewing confusion matrix to assess model performance | Display of true positive, true negative, false positive, and false negative counts | Functions as expected |
+| User Story 5      | ROC Curve Visualization         | Viewing ROC curve on ML Performance Metrics | Curve clearly depicts the trade-off between true positive rate and false positive rate | Functions as expected |
+| User Story 6      | Dataset split visualizations    | Viewing dataset splits across train, validation, and test sets | Pie and bar charts showing dataset proportions          | Functions as expected |
+| User Story 7      | Dynamic refresh of visualizations| Interacting with checkboxes and buttons     | Visualizations dynamically update based on user interaction | Functions as expected |
+| User Story 8      | Performance report integration  | Accessing visual performance reports        | All relevant performance metrics displayed concisely     | Functions as expected |
+
+---
+
+#### Business Requirement 2: Classification
+
+| **User Story**   | **Feature**                     | **Action**                                   | **Expected Result**                                     | **Actual Result**      |
+|-------------------|----------------------------------|---------------------------------------------|---------------------------------------------------------|------------------------|
+| User Story 1      | Training progress plots         | Viewing accuracy and loss over epochs on ML Performance Metrics page | Dynamic plots showing model's accuracy and loss over time | Functions as expected |
+| User Story 2      | Image normalization and augmentation impact visualization | Viewing visualizations of model performance changes on ML Performance Metrics page | Performance impact of normalization and augmentation shown clearly | Functions as expected |
+| User Story 3      | Validation performance metrics  | Reviewing precision, recall, and F1 scores on validation dataset in ML Performance Metrics | Metrics displayed for assessing model generalization to unseen data | Functions as expected |
+| User Story 4      | Multi-image batch prediction    | Uploading multiple images for classification| Accurate predictions for all uploaded images            | Functions as expected |
+| User Story 5      | Misclassification analysis      | Viewing misclassified examples in the dashboard | Misclassified samples highlighted for inspection        | Functions as expected |
+| User Story 6      | Activation function comparison  | Comparing softmax and sigmoid performance   | Clear difference in performance metrics based on activation function used | Functions as expected |
+| User Story 7      | Scalability testing             | Testing with a large dataset                | The model handles larger datasets without significant performance drops | Functions as expected |
+
+---
+
+#### Business Requirement 3: Real-Time Reporting
+
+| **User Story**   | **Feature**                     | **Action**                                   | **Expected Result**                                     | **Actual Result**      |
+|-------------------|----------------------------------|---------------------------------------------|---------------------------------------------------------|------------------------|
+| User Story 1      | Image Upload & Feedback         | Uploading cherry leaf images in Powdery Mildew Detector | Immediate prediction of leaf health status displayed    | Functions as expected |
+| User Story 2      | Dataset Distribution Visualization | Viewing dataset distribution in Quick Project Summary | Proportions of healthy vs. infected leaves displayed clearly | Functions as expected |
+| User Story 3      | Contextual Information & Instructions | Reading provided instructions and context across dashboard pages | Clear instructions aiding in dashboard navigation and result interpretation | Functions as expected |
+| User Story 4      | Downloadable reports            | Downloading prediction results as CSV       | Prediction results saved locally for analysis           | Functions as expected |
+| User Story 5      | Error messages for invalid uploads | Uploading invalid files or unsupported formats | App displays clear error messages for invalid input     | Functions as expected |
+| User Story 6      | User feedback on predictions    | Receiving confidence scores with predictions| Users understand prediction confidence levels           | Functions as expected |
+| User Story 7      | Device compatibility            | Accessing the app on various devices        | The dashboard scales and functions well on mobile and desktop devices | Functions as expected |
+| User Story 8      | Dashboard responsiveness        | Adjusting browser window size               | Layout adapts smoothly without breaking                 | Functions as expected |
